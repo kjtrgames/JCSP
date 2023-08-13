@@ -1,0 +1,14 @@
+if Media.prefers_color_scheme == Media.dark:
+    CssP.set(body(), { # write css vars you want to appect by Dict class
+        "background-color": cyan # cyan was definedvariable. ex) its value is "#00ffff"
+    })
+""" it means:
+    
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: cyan;
+  }
+}
+"""
+CssP.set(div({}, span({CssP.id:"yellow-text", CssP.Data("cou"): "moo"}.before),{
+})
