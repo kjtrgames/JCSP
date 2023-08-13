@@ -1,4 +1,4 @@
-class JSCPElement extends HTMLElement{
+class JCSPElement extends HTMLElement{
   constructor(){
     super();
     this._src = null;
